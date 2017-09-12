@@ -142,7 +142,7 @@ inside that are hovered on*/
 /*select any elements with a class of button-site-links*/
 .bottom-site-links{
   bottom: 0 !important;
-  position: absolute;
+  position: fixed;
   width: 100%;
   background-color: #f2f2f2;
   border-top: 1px solid #e4e4e4;
@@ -195,3 +195,77 @@ insdie then all the achor tags inside*/
   letter-spacing: 0.1px;
   font-size: 14px;
 }
+
+@media only screen and (max-width: 578px) {
+    .search-box-img{
+      text-align: center;
+    }
+	}
+	@media only screen and (max-width: 538px) {
+	    .search-box-img{
+	      text-align: center;
+	    }
+		}
+		@media only screen and (max-width: 464px) {
+		    .search-box-img{
+		      text-align: center;
+		    }
+			}
+
+				@media only screen and (max-width: 456px) {
+					.profile-img{
+							display: none
+						}
+					}
+
+					@media only screen and (max-width: 412px) {
+							.search-box-img{
+								text-align: center;
+							}
+						}
+
+
+	@media only screen and (max-width: 620px) {
+				.search-box input{
+		       width: 500px;
+			}
+	}
+
+
+	@media only screen and (max-width: 516px) {
+				.right-site-links{
+					 display: none;
+			}
+	}
+	@media only screen and (max-width: 516px) {
+				.left-site-links ul{
+					 margin:10px auto;
+			}
+	}
+	@media only screen and (max-width: 516px) {
+				.share-button{
+					 display: none;
+			}
+	}
+	@media only screen and (max-width: 516px) {
+				.search-box input{
+					 width: 400px;
+			}
+	}
+
+	@media only screen and (max-width: 475px) {
+				.search-box input{
+					 width: 300px;
+			}
+	}
+
+	@media only screen and (max-width: 516px) {
+				.fa-bell-o{
+					 display: none;
+			}
+	}
+	@media only screen and (max-width: 288px) {
+				.fa-th{
+					 display: none;
+			}
+	}
